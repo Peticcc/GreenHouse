@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="tata">
+    <div class="gore"><p>G R E E N     H O U S E</p></div>
+    <div class="navbar">
+        <ul>
+            <a href="index.html"> <li> Pocetna </li> </a>
+            <a href="shop.html"> <li> Prodavnica</li> </a>
+            <a href="kontakt.html"> <li> Kontakt </li> </a>
+        </ul>
+    </div>
+    </div>
+    <div class="jedan">KONTAKT</div>
+	<hr width="80%" size="3" color="#132A13">
+	<div class="form">
+		<form name="forma">
+			<label>Ime:</label><br>
+			<input type="text" name="ime">
+			<br>
+			<label>Email:</label><br>
+			<input type="email" name="mejl">
+			<br>
+			<label>Godine:</label><br>
+			<input type="number" name="god">
+			<br>
+			<label>Uslovi koriscenja:</label>
+			<input type="checkbox" name="uslovi">
+			<br><br>
+			<label>Izaberite tip pomoci:</label>
+			<select name="pomoc">
+				<option value="Pomoc pri narucivanju">Pomoc pri narucivanju</option>
+				<option value="Pomoc pri izboru">Pomoc pri izboru</option>
+				<option value="Pomoc pri placanju">Pomoc pri placanju</option>
+				<option value="Ne treba pomoc">Ne treba pomoc</option>
+			</select>
+			<br>
+			<br>
+			<input type="button" value="Potvrdi" onclick="ispis()" id="buttons">
+			<input type="reset" value="obrisi" id="buttons">
+			<br>
+		</form>
+		<div class="ko">ili se javite na email:greenhouse@gmail.com</div>
+	</div>
+	<a href="#" onclick="cenovnik('spisakProizvoda')" id="linkovi">Spisak proizvoda sa cenama</a>
+	<a href="#" onclick="cenovnik('spisakDost')" id="linkovi">Spisak dostupnosti</a>
+	<div id="polje"></div>
+	<div class="zoom-in-zoom-out">Hvala na poverenju</div>
+	<div id="ispis"></div>
+    <div class="ende">Vanja Petic VD18/21</div>
+	<script src="contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,326 @@
+body{
+    margin:0px;
+    background-color: #ECF39E;
+    font-family: 'Rockwell';
+}
+.tata{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    position: sticky;
+    display: block;
+    top: 0;
+    width: 100%;
+    margin-top:0px;
+    height: 300px;
+    z-index: 1;
+}
+.gore{
+    height:200px;
+    width: 100%;
+    background-color: #4F772D;
+    color: white;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color:  #4F772D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.navbar ul a{
+    text-decoration: none;
+}
+
+.navbar ul a li{
+    display: inline;
+    font-size: 25px;
+    color: white;
+    margin: 10px 40px;
+    padding: 10px 20px;
+}
+
+.navbar ul a li:hover{
+    border-radius: 10px;
+    background-color: #132A13;
+}
+
+
+
+#dole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("1.jpg");
+    height:540px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#dole .jedan{
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: bolder;
+}
+#dole .dva{
+    color: whitesmoke;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+} 
+#dole .button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 70px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    display: block;
+    margin: auto;
+  }
+.button1 {
+    background-color: #4F772D; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+.prviblok{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.box{
+    width: 250px;
+    background-color: #4F772D;
+    height: 340x;
+    margin-top:40px;
+    margin-left: 40px;
+    margin-right:40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    overflow: hidden; 
+}
+.zoom img {
+    transition: transform .5s ease;
+}
+.zoom:hover img {
+    transform: scale(1.1);
+  }
+.prviblok .p{
+    font-size: 25px;
+    color: black;
+    }
+.box1{
+    width: 100px;
+    height: 30px;
+    margin-left: 115px;
+    margin-right:115px;
+}
+.posslika{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: 40px auto;
+    width: 800px;
+    height: 350px;
+    background-color: #132A13; 
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 30px;
+}
+.posslika p{
+    padding-top: 70px;
+    color: whitesmoke;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+}
+.posslika .buttonn {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 70px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+.button2 {
+    background-color: #4F772D; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button2:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+.biljak{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-image: url("6.jpg");
+    height:675px;
+    width: 100%;
+}
+.biljak p{
+    padding-top: 100px;
+    padding-left: 900px;
+    color:black;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.zadnjiblok{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+.zadnjiblok .dupli{
+    margin: 0 60px;
+}
+.dupli__text{
+    background-color: #31572C;
+    border-radius: 10px;
+    padding: 10px;
+}
+.dupli__dugme{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #132A13;
+    height:70px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+.dupli__dugme:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+.ende{
+    width: 100%;
+    display: flex;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Rockwell';
+    height: 50px;
+    background-color: #31572C;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+@media screen and (min-width: 320px) and (max-width: 420px) {
+    .tata{
+        height: 80px;
+        width:100%;
+        display: block;
+    }
+    .gore{
+        height: 95px;
+        width:100%;
+        font-size:40px;
+    }
+    .navbar{
+        height: 50px;
+    }
+    .navbar ul{
+        padding: 0px;
+    }
+    .navbar ul a li{
+        font-size:20px ;
+        margin: 0px;
+        padding:10px;
+    }
+    #dole{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #dole .hero-text{
+        padding: 20px;
+    }
+
+    #dole .jedan{
+        margin-top:150px;
+        text-align: center;
+        font-size:30px;
+    }
+    #dole .dva{
+    text-align: center;
+    font-size:25px;
+    }   
+    .prviblok{
+        display: block;
+    }
+    .posslika{
+        width: 80%;
+    }
+    .posslika p{
+        padding-top:20px;
+    }
+    .biljak{
+        width:100%;
+        height:400px;
+    }
+    .biljak p{
+        padding: 60px 0px;
+        text-align: center;
+        margin: 0px;
+    }
+    .zadnjiblok{
+        margin-top:30px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding:0;
+    }
+    .dupli img{
+        width: 100%;
+        height: 300px;
+    }
+    .ende{
+        font-size:11px;
+        margin-top: 80px;
+    }
+
+    .box{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* 
+*{
+    outline: 1px solid red;
+} */
