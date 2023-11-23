@@ -226,6 +226,10 @@ body{
     background-color: #4CAF50;
     color: white;
   }
+.fb-share-button{
+    width: 100%;
+    display: flex;
+}
 .ende{
     width: 100%;
     display: flex;
